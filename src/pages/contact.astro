@@ -1,0 +1,35 @@
+---
+import { Icon } from 'astro-icon/components'
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+---
+
+<DefaultLayout title="Contact">
+  <section class="my-12">
+    <div class="container">
+      <h1>Contact</h1>
+    </div>
+  </section>
+  <section class="my-12">
+    <div class="space-content container">
+      <p class="text-2xl">Email: info@email.com</p>
+      <ul class="flex space-x-6">
+        <li class="type-icon text-3xl">
+          <a href="https://x.com" target="_blank" title="Go to the X page">
+            <Icon name="ion:logo-x" />
+          </a>
+        </li>
+        <li class="type-icon text-3xl">
+          <a href="https://instagram.com" target="_blank" title="Go to the Instagram page">
+            <Icon name="ion:logo-instagram" />
+          </a>
+        </li>
+        <li class="type-icon text-3xl">
+          <a href="https://facebook.com" target="_blank" title="Go to the Facebook page">
+            <Icon name="ion:logo-facebook" />
+          </a>
+        </li>
+      </ul>
+      <a class="button" href="/">Let's get you home Astronout 🚀</a>
+    </div>
+  </section>
+</DefaultLayout>

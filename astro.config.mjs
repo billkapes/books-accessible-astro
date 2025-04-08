@@ -7,7 +7,7 @@ import icon from 'astro-icon'
 // https://astro.build/config
 export default defineConfig({
   compressHTML: true,
-  site: 'https://accessible-astro.netlify.app',
+  site: 'https://gleaming-begonia-4be398.netlify.app/',
   integrations: [
     mdx(),
     icon(),
