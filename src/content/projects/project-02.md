@@ -1,21 +1,22 @@
 ---
-title: Sign Language Bridge
-author: Jane Smith
-description: An AI-powered real-time sign language translation system that enables seamless communication between deaf and hearing individuals
+title: Coming Soon
+author: John Blanchard Jefferson
+description: A comprehensive web security solution that ensures both robust protection and WCAG 2.1 Level AAA compliance for enterprise websites
+img: /profilebanner.jpg
 ---
 
 ## Project Overview
 
-Sign Language Bridge revolutionizes communication for the deaf community by providing real-time translation between sign language and spoken/written language. Using advanced computer vision and natural language processing, the system captures sign language gestures and converts them into text or speech, while also translating spoken words into animated sign language.
+AccessGuard is a revolutionary web security platform that combines enterprise-grade protection with built-in accessibility compliance checking. The system ensures websites remain secure while maintaining full accessibility, automatically detecting and suggesting fixes for WCAG violations while protecting against security threats.
 
 ## Technical Challenges
 
-The biggest hurdle was developing a system that could accurately capture and interpret the nuanced movements of sign language in real-time, including facial expressions and hand positions. We implemented a novel approach using 3D motion tracking and contextual understanding to achieve high accuracy in varied lighting conditions.
+The primary challenge was implementing security measures that wouldn't interfere with assistive technologies. We developed an innovative approach that maintains strict security while ensuring screen readers, keyboard navigation, and other accessibility tools function perfectly, even during security challenges like CAPTCHA verification.
 
 ## Testimonial
 
-> "Sign Language Bridge has transformed how I communicate with my hearing colleagues. It's like having a skilled interpreter available 24/7, giving me true independence in professional settings."
+> "AccessGuard has transformed how we approach web security. We no longer have to choose between robust security and accessibility - we get both in one solution, and our compliance scores have never been better."
 >
-> - David Chen, Software Engineer
+> - Lisa Chen, Director of Digital Accessibility, Global Tech Solutions
 
-The project is currently expanding to support more sign languages and developing specialized vocabularies for professional environments.
+Currently expanding into automated accessibility testing and developing AI-powered remediation suggestions.

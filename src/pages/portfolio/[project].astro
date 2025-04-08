@@ -3,7 +3,8 @@ import DefaultLayout from '../../layouts/DefaultLayout.astro'
 import { Breadcrumbs, BreadcrumbsItem } from 'accessible-astro-components'
 import { getCollection, render } from 'astro:content'
 import type { CollectionEntry } from 'astro:content'
-
+import ContentMedia from '../../components/ContentMedia.astro'
+import { Icon } from 'astro-icon/components'
 export async function getStaticPaths() {
   const projects = await getCollection('projects')
   return projects.map((project) => {
@@ -27,22 +28,35 @@ const { Content } = await render(project)
     <div class="mt-12">
       <Breadcrumbs>
         <BreadcrumbsItem href="/" label="Home" />
-        <BreadcrumbsItem href="/portfolio" label="Portfolio" />
+        <BreadcrumbsItem href="/portfolio" label="Books" />
         <BreadcrumbsItem currentPage={true} label={project.data.title} />
       </Breadcrumbs>
     </div>
   </div>
-  <section class="my-12">
-    <div class="container">
-      <h1>{project.data.title}</h1><br />
-      <p>By author: {project.data.author}</p>
-    </div>
-  </section>
-  <section class="my-12">
-    <div class="space-content container">
-      <Content />
-    </div>
-  </section>
+
+  <ContentMedia imgSrc={project.data.img}>
+    <section class="my-12">
+      <div class="container">
+        <h1>{project.data.title}</h1><br />
+        <p>By author: {project.data.author}</p>
+      </div>
+      <div class="container">
+        <a
+          class="button has-icon mt-5"
+          target="_blank"
+          href="https://www.amazon.com/Flight-Level-Heist-Blanchard-Jefferson-ebook/dp/B0DYZ24JRN"
+        >
+          <Icon name="ion:logo-amazon" />
+          Shop on Amazon
+        </a>
+      </div>
+    </section>
+    <section class="my-12">
+      <div class="space-content container">
+        <Content />
+      </div>
+    </section>
+  </ContentMedia>
 </DefaultLayout>
 
 <style lang="scss">

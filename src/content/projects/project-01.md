@@ -1,21 +1,16 @@
 ---
-title: Voice-First Smart Home Assistant
-author: John Doe
-description: A comprehensive smart home solution designed specifically for users with visual impairments, featuring voice-first interactions and haptic feedback
+title: Flight Level Heist
+author: John Blanchard Jefferson
+description: When Flight 1188 crashes on a remote Pacific island, forty-seven survivors discover that survival is only the beginning of their extraordinary journey. Marine veteran Bud and flight attendant Kerry lead a group of strangers through a harrowing year of challenges - battling a deadly flu, surviving a tsunami, and creating a community against impossible odds.
+img: /flhcover.jpg
 ---
 
-## Project Overview
+When Flight 1188 crashes on a remote Pacific island, forty-seven survivors discover that survival is only the beginning of their extraordinary journey. Marine veteran Bud and flight attendant Kerry lead a group of strangers through a harrowing year of challenges - battling a deadly flu, surviving a tsunami, and creating a community against impossible odds.
 
-Our team developed an inclusive smart home solution that makes home automation accessible to everyone, with a special focus on users with visual impairments. The system uses advanced speech recognition and natural language processing to provide intuitive voice control, while incorporating haptic feedback for tactile confirmation of actions.
+But beneath the surface of their survival story lies a hidden secret: billions in gold, stashed in the aircraft's cargo hold. Tom, a security professional, and Bud had begun moving the gold before their plans were interrupted by disaster. As survivors die and hope becomes their most precious commodity, the gold remains their unspoken promise of future redemption.
 
-## Technical Challenges
+Years later, Bud, Kerry, and a small team return to the island on a meticulously planned recovery mission. Armed with a custom-built maritime vessel, advanced equipment, and hard-earned survival skills, they navigate treacherous waters and face off against international rivals who want the gold for themselves.
 
-One of the biggest challenges was creating a reliable voice recognition system that could work effectively in noisy environments and understand diverse speech patterns, including users with speech impediments. We solved this by implementing a custom machine learning model trained on a diverse dataset of voices and ambient conditions.
+Their journey becomes a high-stakes maritime heist, combining the precision of a military operation with the unpredictability of their previous island survival. Pursued by pirates, tracked by a corrupt island president, and guided by their unbreakable bond, they must use every skill learned during their year of survival to recover the gold and secure their future.
 
-## Testimonial
-
-> "This system has given me back my independence at home. The voice controls are so natural, and the haptic feedback helps me confirm every action without needing to see anything."
->
-> - Maria Rodriguez, Beta Tester
-
-The project continues to evolve with regular updates based on user feedback, with a focus on expanding support for multiple languages and additional accessibility features.
+"Flight Level Heist" is a pulse-pounding thriller of survival, strategy, and redemtion - a story of how ordinarry people become extraordinary when pushed to their absolute limits.
