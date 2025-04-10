@@ -1,6 +1,6 @@
 ---
 title: Flight Level Heist
-author: John Blanchard Jefferson
+author: Now!
 description: When Flight 1188 crashes on a remote Pacific island, forty-seven survivors discover that survival is only the beginning of their extraordinary journey. Marine veteran Bud and flight attendant Kerry lead a group of strangers through a harrowing year of challenges - battling a deadly flu, surviving a tsunami, and creating a community against impossible odds ...
 img: /flhcover.jpg
 ---
