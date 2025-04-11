@@ -1,7 +1,7 @@
 ---
 title: Drug Payback
 author: Soon
-description: In the quiet town where everyone knows everyone's business, private investigator Dave Harper never expected to be pulled into a life-altering conspiracy. But when his niece Emily dies from what officials call "just another fentanyl overdose," Dave's instincts tell him something doesn't add up ...
+description: In the quiet town where everyone knows everyone's business, private investigator Dave Harper never expected to be pulled into a life-altering conspiracy. But when his niece Emily dies from what officials call "just another fentanyl overdose," Dave's instincts tell him ...
 img: /placeholderbook2.jpg
 ---
 In the quiet town where everyone knows everyone's business, private investigator Dave Harper never expected to be pulled into a life-altering conspiracy. But when his niece Emily dies from what officials call "just another fentanyl overdose," Dave's instincts tell him something doesn't add up. 

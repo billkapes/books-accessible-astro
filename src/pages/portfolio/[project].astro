@@ -38,18 +38,20 @@ const { Content } = await render(project)
     <section class="my-12">
       <div class="container">
         <h1>{project.data.title}</h1><br />
-        <p>By author: {project.data.author}</p>
+        <p>Available {project.data.author}</p>
       </div>
-      <div class="container">
-        <a
-          class="button has-icon mt-5"
-          target="_blank"
-          href="https://www.amazon.com/Flight-Level-Heist-Blanchard-Jefferson-ebook/dp/B0DYZ24JRN"
-        >
-          <Icon name="ion:logo-amazon" />
-          Shop on Amazon
-        </a>
-      </div>
+      {project.data.author === "Now!" && (
+        <div class="container">
+          <a
+        class="button has-icon mt-5"
+        target="_blank"
+        href="https://www.amazon.com/Flight-Level-Heist-Blanchard-Jefferson-ebook/dp/B0DYZ24JRN"
+          >
+        <Icon name="ion:logo-amazon" />
+        Buy on Amazon
+          </a>
+        </div>
+      )}
     </section>
     <section class="my-12">
       <div class="space-content container">
